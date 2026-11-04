@@ -7,9 +7,7 @@ Pod::Spec.new do |s|
   s.authors = { 'Tristan Himmelman' => 'tristanhimmelman@gmail.com' }
   s.source = { :git => 'https://github.com/Objectway/ObjectMapper.git', :tag => s.version.to_s }
 
-  s.watchos.deployment_target = '2.0'
   s.ios.deployment_target = '18.0'
-  s.osx.deployment_target = '10.13'
 
   s.swift_version = '5.0'
 
